@@ -1,0 +1,15 @@
+<svg width="880" height="1015" viewBox="0 0 880 1015" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M233.5 1004.5V855C233.5 841.193 244.693 830 258.5 830H338" stroke="black" stroke-width="20"/>
+<path d="M348 1004.5H35.5C21.6929 1004.5 10.5 993.307 10.5 979.5V40.401C10.5 21.8285 30.0348 9.74048 46.6557 18.028L541.156 264.597C549.639 268.827 555 277.491 555 286.97V334.5M426.373 445.275L835.373 284.883C851.771 278.452 869.5 290.543 869.5 308.158V979.5C869.5 993.307 858.307 1004.5 844.5 1004.5H435.5C421.693 1004.5 410.5 993.307 410.5 979.5V468.55C410.5 458.265 416.798 449.03 426.373 445.275Z" stroke="black" stroke-width="20"/>
+<path d="M576 830H713C721.284 830 728 836.716 728 845V1004H561V845C561 836.716 567.716 830 576 830Z" stroke="black" stroke-width="20"/>
+<rect x="58.5" y="712.5" width="220" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="468.5" y="712.5" width="353" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="468.5" y="508.5" width="353" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="468.5" y="610.5" width="353" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="58.5" y="610.5" width="220" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="58.5" y="508.5" width="220" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="58.5" y="406.5" width="220" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="601.5" y="406.5" width="220" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="58.5" y="304.5" width="220" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+<rect x="58.5" y="202.5" width="220" height="54" rx="17.5" stroke="#9756B1" stroke-width="15"/>
+</svg>

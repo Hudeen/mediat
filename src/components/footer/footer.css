@@ -1,0 +1,133 @@
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.footer_title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__button {
+    padding: 15px;
+    border-radius: 10px;
+    background: #693394;
+    margin-left: 15px;
+
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: .1s ease all;
+
+    -webkit-box-shadow: 0px 0px 23px 9px rgba(151, 86, 176, 0.2);
+    -moz-box-shadow: 0px 0px 23px 9px rgba(151, 86, 176, 0.2);
+    box-shadow: 0px 0px 23px 9px rgba(151, 86, 176, 0.2);
+}
+
+.form__button:hover {
+    background: #9756b0;
+}
+
+.form__container {
+    max-width: 1320px;
+    margin-bottom: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    -webkit-transition: 200ms ease all;
+    -o-transition: 200ms ease all;
+    transition: 200ms ease all;
+}
+
+.form__input {
+    height: 50px;
+    border: 1px solid #afafaf;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #0e0e0e;
+    width: 400px;
+    outline:none;
+    transition: all 0.2s;
+}
+
+.form__placeholder{
+    color: #676767;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 14px;
+    margin-right: 430px;
+    pointer-events: none;
+    position: absolute;
+
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+}
+
+.form__input:focus ~ .form__placeholder,
+.form__input:not(:placeholder-shown) ~ .form__placeholder {
+    transform: translateY(-15px) translateX(0) scale(0.55);
+}
+
+.form__input:not(:placeholder-shown) ~ .form__placeholder {
+    color: #414141;
+}
+
+.form__input:focus ~ .form__placeholder {
+    color: #0e0e0e;
+}
+
+.policy {
+    margin-top: 20px;
+    opacity: .6;
+}
+
+@media (max-width: 615px) {
+    .form__container {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__button {
+        margin-top: 20px;
+    }
+
+    .footer_title {
+        font-size: 1.5rem;
+    }
+
+    .form__placeholder {
+        margin-right: 0;
+        left: 52px;
+        top: 19px;
+    }
+
+    .form__input {
+        width: 92vw;
+    }
+}
